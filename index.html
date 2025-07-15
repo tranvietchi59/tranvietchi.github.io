@@ -7,7 +7,9 @@
   
 <script>
 	function random(){
-		document.getElementById("myNumber").innerHTML = Math.floor(Math.random() * 10);
+		var randomNumber = Math.floor(Math.random() * 10);
+		
+		$("#myNumber").text(randomNumber);
 		}
 </script>
 
