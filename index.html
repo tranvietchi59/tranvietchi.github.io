@@ -5,15 +5,7 @@
     <meta content="mathematics, probability, statistics, systeme de particules en interaction, dynamique des populations, epidemiologie, geometrie aleatoire, interacting particle systems, population dynamics, epidemiology, stochastic geometry" name="description">
   </head>
   
-<script>
-	function random(){
-		var randomNumber = Math.floor(Math.random() * 10);
-		
-		$("#myNumber").text(randomNumber);
-		}
-</script>
-
-<body onload="random();">
+<body>
 
     <br>
 <div style="text-align: center;">
@@ -30,11 +22,9 @@
             vertical-align: top; text-align: center; width: 500px;">
             <div style="text-align: right;"> </div>
 
-    <!-- 		echo "coucou";
-             echo #myNumber;
-		  echo "myNumber";
-		  echo myNumber
-     -->
+		$i=Math.floor(Math.random() * 10);
+     		echo "coucou";
+             	echo $i;
 <!--
                 <div style="text-align: center;"> <img style="width:328px; height: 245px;" alt="Photo"
                 <?php if("myNumber"=="0"){echo "src=\"Images/Chi1.jpg\" title=\"Avec mes &eacute;tudiants &agrave; Ho Chi Minh City : Hoang Van Ha, Nguyen Vinh Dao, moi, Hoang Bao An Mai et Nguyen Thi Le Thu\"";}
